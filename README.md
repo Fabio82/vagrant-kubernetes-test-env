@@ -14,9 +14,13 @@ Vagrant 2.2.19
 fabio@BMO:~/code/vagrant-kubernetes-test-env$ VBoxManage --version
 6.1.38_Ubuntur153438
 ```
-* **git clone this repo**
+### **git clone this repo**
+```sh
+git clone https://github.com/Fabio82/vagrant-kubernetes-test-env.git
+cd vagrant-kubernetes-test-env
+```
 
-* **Edit Vagrantfile**
+### **Edit Vagrantfile**
 Here you can chose version of software components ...
 
 ```ruby
@@ -54,9 +58,7 @@ export KUBECONFIG=kubeconfig.yaml
 
  
 ```sh
-fabio@BMO:~/code/vagrant-kubernetes-test-env$ export KUBECONFIG=kubeconfig.yaml
- 
-fabio@BMO:~/code/vagrant-kubernetes-test-env$ kubectl get nodes
+kubectl get nodes
 NAME         STATUS   ROLES           AGE    VERSION
 bar-02       Ready    <none>          12s    v1.25.4 
 foo-01       Ready    <none>          76s    v1.25.4
