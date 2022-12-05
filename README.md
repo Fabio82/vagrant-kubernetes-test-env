@@ -17,6 +17,7 @@ fabio@BMO:~/code/vagrant-kubernetes-test-env$ VBoxManage --version
 * **git clone this repo**
 ```sh
 git clone https://github.com/Fabio82/vagrant-kubernetes-test-env.git
+cd vagrant-kubernetes-test-env
 ```
 
 * **Edit Vagrantfile**
