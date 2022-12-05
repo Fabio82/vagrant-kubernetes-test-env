@@ -57,9 +57,7 @@ export KUBECONFIG=kubeconfig.yaml
 
  
 ```sh
-fabio@BMO:~/code/vagrant-kubernetes-test-env$ export KUBECONFIG=kubeconfig.yaml
- 
-fabio@BMO:~/code/vagrant-kubernetes-test-env$ kubectl get nodes
+kubectl get nodes
 NAME         STATUS   ROLES           AGE    VERSION
 bar-02       Ready    <none>          12s    v1.25.4 
 foo-01       Ready    <none>          76s    v1.25.4
