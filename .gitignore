@@ -1,0 +1,5 @@
+.vagrant/
+*.out
+kubeconfig.yaml
+scripts/join.sh
+
