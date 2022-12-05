@@ -14,13 +14,13 @@ Vagrant 2.2.19
 fabio@BMO:~/code/vagrant-kubernetes-test-env$ VBoxManage --version
 6.1.38_Ubuntur153438
 ```
-* **git clone this repo**
+### **git clone this repo**
 ```sh
 git clone https://github.com/Fabio82/vagrant-kubernetes-test-env.git
 cd vagrant-kubernetes-test-env
 ```
 
-* **Edit Vagrantfile**
+### **Edit Vagrantfile**
 Here you can chose version of software components ...
 
 ```ruby
