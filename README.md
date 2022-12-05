@@ -1,5 +1,5 @@
 # vagrant-kubernetes-test-env
-> Create a kubernetes cluster with kubeadm on virtualbox with Vagrant. It uses ``containerd`` for the CRI and ``calico`` for CNI
+> Create a kubernetes cluster with kubeadm on virtualbox with Vagrant. It uses ``containerd`` and ``calico``
 
 ## Installation and configuration:
 
