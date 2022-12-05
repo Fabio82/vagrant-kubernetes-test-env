@@ -15,6 +15,9 @@ fabio@BMO:~/code/vagrant-kubernetes-test-env$ VBoxManage --version
 6.1.38_Ubuntur153438
 ```
 * **git clone this repo**
+```sh
+git clone https://github.com/Fabio82/vagrant-kubernetes-test-env.git
+```
 
 * **Edit Vagrantfile**
 Here you can chose version of software components ...
